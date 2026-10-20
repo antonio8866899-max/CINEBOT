@@ -1,7 +1,6 @@
 import sqlite3
 import matplotlib.pyplot as plt
 
-# Configuración de la base de datos
 def crear_base_datos():
     conexion = sqlite3.connect('cinebot.db')
     cursor = conexion.cursor()
@@ -16,10 +15,9 @@ def crear_base_datos():
     conexion.commit()
     conexion.close()
 
-# Función para agregar película
 def agregar_pelicula():
     titulo = input("Ingrese el titulo de la pelicula: ")
-    genero = input("Ingrese el genero (Accion, Comedia, Drama, etc.): ")
+    genero = input("Ingrese el genero: ")
     try:
         calificacion = int(input("Calificacion del 1 al 5: "))
         if calificacion < 1 or calificacion > 5:
@@ -34,9 +32,8 @@ def agregar_pelicula():
     cursor.execute("INSERT INTO peliculas (titulo, genero, calificacion) VALUES (?, ?, ?)", (titulo, genero, calificacion))
     conexion.commit()
     conexion.close()
-    print(f"¡Pelicula '{titulo}' guardada con exito!")
+    print(f"Pelicula '{titulo}' guardada con exito!")
 
-# Función para generar gráfico
 def mostrar_estadisticas():
     conexion = sqlite3.connect('cinebot.db')
     cursor = conexion.cursor()
@@ -58,7 +55,6 @@ def mostrar_estadisticas():
     plt.ylabel('Cantidad')
     plt.show()
 
-# Menú principal
 def menu():
     crear_base_datos()
     while True:
