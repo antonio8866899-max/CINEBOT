@@ -18,3 +18,22 @@ CINEBOT es un sistema desarrollado en Python que permite a los usuarios llevar u
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/antonio8866899-max/CINEBOT.git
+   (EN TU CMD COPIA Y PEGA)
+   Paso 1: Entra a la carpeta
+Escribe este comando y presiona Enter:
+cd CINEBOT
+
+Instala las librerías necesarias
+pip install -r requirements.txt
+
+Ejecuta el programa
+python main.py
+
+¿Qué debería pasar?
+Debería aparecer en tu pantalla el menú de CINEBOT :
+--- BIENVENIDO A CINEBOT ---
+1. Registrar nueva pelicula
+2. Ver estadisticas (Grafico)
+3. Salir
+Seleccione una opcion: 
+
