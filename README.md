@@ -7,6 +7,8 @@ CINEBOT es un sistema desarrollado en Python que permite a los usuarios llevar u
 *   **Representante:** Juan Antonio Campos Mejia
 *   Hector Alexander Fuentes Zuleta
 *   Edgar Alejandro Marenco Maravilla
+*   Sofia Alessandra Amaya Molina
+*   Felipe Neftali Orellana Delgado 
 
  Tecnologías y Componentes
 *   **Lenguaje principal:** Python.
