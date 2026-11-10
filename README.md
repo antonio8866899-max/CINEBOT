@@ -4,11 +4,11 @@ Sistema inteligente de gestión y recomendación de películas basado en prefere
 CINEBOT es un sistema desarrollado en Python que permite a los usuarios llevar un registro de las películas que han visto, calificarlas y recibir recomendaciones personalizadas según sus gustos. El sistema soluciona el problema de la "fatiga de decisión" en las plataformas de streaming, centralizando el historial del usuario y analizando sus preferencias mediante gráficos estadísticos.
 
  Integrantes del Equipo
-*   **Representante:** Juan Antonio Campos Mejia
-*   Hector Alexander Fuentes Zuleta
-*   Edgar Alejandro Marenco Maravilla
-*   Sofia Alessandra Amaya Molina
-*   Felipe Neftali Orellana Delgado 
+*   **Representante:** Juan Antonio Campos Mejia  Codigo: SMSS037325
+*   Héctor Alexander Fuentes Zuleta     Código: SMSS072625
+*   Edgar Alejandro Marenco Maravilla   Codigo: SMSS078025
+*   Sofia Alessandra Amaya Molina       Codigo: SMSS030725
+*   Felipe Neftali Orellana Delgado     Codigo: SMSS047825
 
  Tecnologías y Componentes
 *   **Lenguaje principal:** Python.
@@ -34,7 +34,7 @@ python main.py
 ¿Qué debería pasar?
 Debería aparecer en tu pantalla el menú de CINEBOT :
 --- BIENVENIDO A CINEBOT ---
-1. Registrar nueva pelicula
+1. Registrar nueva pelicul
 2. Ver estadisticas (Grafico)
 3. Salir
 Seleccione una opcion: 
